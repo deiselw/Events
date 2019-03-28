@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dlwrasse.events.activities.MainActivity">
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/ic_outline_search_24px"
+        android:queryHint="@string/hint_search"
+        android:title="@string/hint_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+</menu>

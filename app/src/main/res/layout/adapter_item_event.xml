@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="horizontal"
+    android:background="@drawable/selector_item_background"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <TextView
+        style="@style/AppTheme.Hour"
+        android:id="@+id/text_item_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:paddingRight="16dp" />
+
+    <TextView
+        style="@style/AppTheme.Text"
+        android:id="@+id/text_item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center_vertical|left"
+        android:maxLines="3" />
+		
+</LinearLayout>

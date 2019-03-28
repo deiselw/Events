@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appColor">#2196f3</color>
+    <color name="colorSelected">#14000000</color>
+    <color name="accent_material_light">#2196f3</color> <!-- 8% of 255x0 = 20.4 | 20 = 14x0 -->
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorPrimaryDark">@android:color/darker_gray</item>
+        <item name="colorAccent">@color/appColor</item>
+        <item name="colorSecondary">@color/appColor</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@android:color/white</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar.Surface" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Toolbar.Surface" />
+
+    <style name="AppTheme.Time" parent="TextAppearance.MaterialComponents.Caption" />
+    <style name="AppTheme.Hour" parent="TextAppearance.MaterialComponents.Body2" />
+    <style name="AppTheme.Text" parent="TextAppearance.MaterialComponents.Body2" />
+</resources>

@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">When</string>
+    <string name="database_name">events_db</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_backup">Backup</string>
+
+    <string name="title_create_event">New event</string>
+    <string name="title_edit_event">Edit event</string>
+    <string name="title_event">Timeline</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_prefs">Preferences</string>
+
+    <string name="hint_event_text">Event name and #tags</string>
+    <string name="hint_search">Search events</string>
+
+    <string name="text_discard_new_event">Discard new event?</string>
+    <string name="text_discard_changes">Discard changes?</string>
+    <string name="text_no_events">I started writing my events today. I\`m confident it\'ll help me to feel more present.</string>
+    <string name="text_time_ago">%s ago</string>
+    <string name="text_time_in">in %s</string>
+    <plurals name="text_events_period">
+        <item quantity="one">from %s</item>
+        <item quantity="other">from %s to %s</item>
+    </plurals>
+    <plurals name="text_event_count">
+        <item quantity="one">%d event</item>
+        <item quantity="other">%d events</item>
+    </plurals>
+    <plurals name="text_delete_event">
+        <item quantity="one">Delete event?</item>
+        <item quantity="other">Delete events?</item>
+    </plurals>
+    <plurals name="text_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="text_months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="text_years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+
+    <string name="label_premium">Premium</string>
+    <string name="label_today">Today</string>
+
+    <string name="menu_contact">Contact</string>
+    <string name="menu_rate">Rate the app</string>
+    <string name="menu_tags">Tags</string>
+    <string name="menu_all">My Events</string>
+    <string name="menu_prefs">Preferences</string>
+    <string name="menu_premium">Premium</string>
+    <string name="menu_menu">Menu</string>
+
+    <string name="contact_email_subject">Event App</string>
+    <string name="contact_email_address">@gmail.com</string>
+
+    <string name="dialog_title_backupOff">Disable Backup?</string>
+    <string name="dialog_message_backupOff">This will cause a desync between your local database and your backup.</string>
+    <string name="dialog_positive_backupOff">Disable</string>
+    <string name="dialog_title_googleSignOut">Sign out?</string>
+    <string name="dialog_message_googleSignOut_backupOn">We will no longer be able to store data backups to your Google Drive.</string>
+    <string name="dialog_positive_googleSignOut">Sign out</string>
+    <string name="dialog_title_confirmBackup">Choose a database</string>
+    <string name="dialog_message_confirmBackup">We found a <b>backup</b> database dated from %s. You can <b>keep the current</b> database or <b>use the backup</b>. Please, choose carefully, as this action is irreversible.</string>
+    <string name="dialog_positive_confirmBackup">Use backup</string>
+    <string name="dialog_negative_confirmBackup">Keep current</string>
+    <string name="dialog_title_premiumOffer">Hey %s</string>
+    <string name="dialog_message_premiumOffer">Pay once and backup forever.\n\nBuying our premium version</string>
+    <string name="dialog_message_premiumOffer1">Keep your data securely safe in your Google Drive</string>
+    <string name="dialog_message_premiumOffer2">Help us to improve the app even more</string>
+    <string name="dialog_positive_premiumOffer">Back Up</string>
+    <string name="dialog_negative_premiumOffer">Not now</string>
+
+
+    <string name="pref_category_title_premium">Premium</string>
+    <string name="pref_category_key_premium">pref_category_key_premium</string>
+    <string name="pref_key_googleSignIn">pref_key_googleSignIn</string>
+    <string name="pref_key_backup">pref_key_backup</string>
+    <string name="pref_key_premium">pref_key_premium</string>
+    <string name="pref_key_photoUrl">pref_key_photoUrl</string>
+    <string name="pref_key_email">pref_key_email</string>
+    <string name="pref_title_googleSignIn">Google Sign-In</string>
+    <string name="pref_title_backup">Backup database to Google Drive</string>
+    <string name="pref_title_premium">Premium</string>
+    <string name="pref_summary_googleSignInOn">Connected</string>
+    <string name="pref_summary_googleSignInOff">Disconnected</string>
+    <string name="pref_summary_on">On</string>
+    <string name="pref_summary_off">Off</string>
+
+    <string name="error_mustImplement">%s must implement %s</string>
+</resources>
